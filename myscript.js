@@ -11,6 +11,6 @@ let numero= prompt ("numero preferito?");
 number=parseInt(numero);
 console .log ( numero );
 
-let frase= `nomecognomecolorepreferito21`;
+let frase= `${nome} ${cognome} ${colorepreferito} ${numero}`;
 console .log (frase);
 document.getElementById("frase").innerHTML=frase;
