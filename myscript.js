@@ -4,13 +4,9 @@ console .log ( nome );
 const cognome= prompt("qual'è il tuo cognome");
 console .log ( cognome );
 
-const colorepreferito= prompt("quale colore preferisci?");
-console .log ( colorepreferito );
+const colorePreferito= prompt("qual'è il tuo colore preferito?");
+console .log ( colorePreferito );
 
-let numero= prompt ("numero preferito?");
-number=parseInt(numero);
-console .log ( numero );
-
-let frase= `${nome} ${cognome} ${colorepreferito} ${numero}`;
+let frase= `${nome}${cognome}${colorePreferito}21`;
 console .log (frase);
 document.getElementById("frase").innerHTML=frase;
